@@ -1,0 +1,39 @@
+.slider{
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+
+.slider ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.slider li{
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+.control-panel {
+    width: 400px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
